@@ -4,28 +4,28 @@
 
 Open source software has expanded from a low-cost alternative to a platform for enterprise databases, clouds and next-generation apps. These workloads need higher levels of scalability, security and availability from the underlying hardware infrastructure.
 
-LinuxONE was built for open source so you can harness the agility of the open revolution on the industry’s most secure, scalable and high-performing Linux server. In this journey we will show how to run open source Cloud-Native workloads on LinuxONE using Docker. We will show how existing LinuxONE docker images from docker hub can be used as is for deploying open source workloads. 
+LinuxONE was built for open source so you can harness the agility of the open revolution on the industry’s most secure, scalable and high-performing Linux server. In this journey we will show how to run open source Cloud-Native workloads on LinuxONE using Docker. We will show how existing LinuxONE docker images from docker hub can be used as is for deploying open source workloads.
 
 If the desired images don't exist, we also show how you can create your own docker images for the workload. The z architecture has a different instruction set from the typical machines used in distributed environments. If the Dockerfile has build steps that build native code, the right platform of the compile flags must be used to make it work on LinuxONE, in addition to accounting for specific packages which can be used with LinuxONE. The second part of this Journey goes into those details.
 
 ![linuxonedocker](images/linuxone-docker.png)
- 
+
 ## Scenarios
 
-1. [Scenario One: Use Docker images from Docker hub to run your workloads on LinuxONE](#scenario-one-use-docker-images-from-docker-hub-to-run-your-workloads-on-linuxone)     
-    1.1 [WebSphere Liberty](#1-install-and-run-websphere-liberty)     
-    1.2 [WordPress](#2-install-and-run-wordpress)          
-2. [Scenario Two: Create your own Docker images for LinuxONE](#scenario-two-create-your-own-docker-images-for-linuxone)     
+1. [Scenario One: Use Docker images from Docker hub to run your workloads on LinuxONE](#scenario-one-use-docker-images-from-docker-hub-to-run-your-workloads-on-linuxone)
+    1.1 [WebSphere Liberty](#1-install-and-run-websphere-liberty)
+    1.2 [WordPress](#2-install-and-run-wordpress)
+2. [Scenario Two: Create your own Docker images for LinuxONE](#scenario-two-create-your-own-docker-images-for-linuxone)
     2.1 [MEAN Stack](#1-obtain-the-mean-stack-docker-components-from-github)
 
 ## Included Components
 
-- [LinuxONE](https://www.ibm.com/linuxone/open-source)
+- [LinuxONE](https://www.ibm.com/it-infrastructure/linuxone/capabilities/open-source)
 - [Docker](https://www.docker.com)
 - [WordPress](https://wordpress.org/about/)
 - [MEAN](https://mean.io/)
 - [WebSphere Liberty](https://hub.docker.com/r/s390x/websphere-liberty/)
-- [MEAN Stack](http://mean.io/)
+- [MEAN Stack](https://mean.io/)
 
 ## Prerequisites
 
@@ -200,9 +200,9 @@ All customizations to the application can be made in the [express-server](files/
 
 ## License
 
-This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](http://www.apache.org/licenses/LICENSE-2.0.txt).
+This code pattern is licensed under the Apache Software License, Version 2.  Separate third party code objects invoked within this code pattern are licensed by their respective providers pursuant to their own separate licenses. Contributions are subject to the [Developer Certificate of Origin, Version 1.1 (DCO)](https://developercertificate.org/) and the [Apache Software License, Version 2](https://www.apache.org/licenses/LICENSE-2.0.txt).
 
-[Apache Software License (ASL) FAQ](http://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
+[Apache Software License (ASL) FAQ](https://www.apache.org/foundation/license-faq.html#WhatDoesItMEAN)
 
 ## Troubleshooting
 
