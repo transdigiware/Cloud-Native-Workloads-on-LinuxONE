@@ -29,7 +29,7 @@ If the desired images don't exist, we also show how you can create your own dock
 
 ## Prerequisites
 
-Register at [LinuxONE Community Cloud](https://developer.ibm.com/linuxone/) for a trial account. We will be using a Ret Hat base image for this journey, so be sure to chose the 'Request your trial' button on the left side of this page.
+Register at [LinuxONE Community Cloud](https://developer.ibm.com/linuxone/) for a trial account. We will be using a Ret Hat base image for this journey, so be sure to chose the `Request your trial` button on the left side of this page.
 
 ## Scenario One: Use Docker images from Docker hub to run your workloads on LinuxONE
 
